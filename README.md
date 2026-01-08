@@ -45,18 +45,14 @@ To run the editor, execute the main script from your terminal:
 ```bash
 python image_editor.py ```
 
-1. Load Image
+### 1. Load Image
 Upon running, the script will prompt you to enter the full path to an image file.
 
-```Plaintext
-
 Enter image path: /path/to/your/image.jpg
-Input Validation: The program checks if the file exists and is a valid image format.```
+Input Validation: The program checks if the file exists and is a valid image format.
 
-2. Select Operations
+### 2. Select Operations
 Once loaded, you can perform multiple operations sequentially. Enter the number corresponding to the desired action:
-
-```Plaintext
 
 Select an operation:
 1. Grayscale
@@ -67,9 +63,8 @@ Select an operation:
 6. Show Image
 7. Edge Detection
 8. Quantize
-```
 
-3. Save Result
+### 3. Save Result
 After editing, the program allows you to save the modified image to a new path.
 
 ## 📂 Project Structure
