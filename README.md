@@ -67,17 +67,19 @@ Select an operation:
 6. Show Image
 7. Edge Detection
 8. Quantize
-3. Save Result
-After editing, the program allows you to save the modified image to a new path.```
+```
 
-##📂 Project Structure
+3. Save Result
+After editing, the program allows you to save the modified image to a new path.
+
+## 📂 Project Structure
 image_editor.py: Contains the main application logic, menu loop, and algorithm implementations.
 
 ex6_helper.py: A utility module handling the interface between raw Python lists and the filesystem (using Pillow for I/O only).
 
 image_editor_test.py: Unit tests ensuring the correctness of matrix operations (e.g., verify rotation logic and channel combining).
 
-##🛠️ Requirements
+## 🛠️ Requirements
 Python 3.x
 
 Pillow (PIL) (Only used for loading/saving files, not for processing)
@@ -88,5 +90,5 @@ Bash
 
 pip install Pillow
 
-##✍️ Author
+## ✍️ Author
 Developed by Elal Gilboa as part of the Image Processing course at the Hebrew University.
