@@ -45,7 +45,7 @@ To run the editor, execute the main script from your terminal:
 ```bash
 python image_editor.py
 1. Load Image
-Upon running, the script will prompt you to enter the full path to an image file.
+Upon running, the script will prompt you to enter the full path to an image file.```
 
 Plaintext
 
@@ -69,14 +69,14 @@ Select an operation:
 3. Save Result
 After editing, the program allows you to save the modified image to a new path.
 
-📂 Project Structure
+##📂 Project Structure
 image_editor.py: Contains the main application logic, menu loop, and algorithm implementations.
 
 ex6_helper.py: A utility module handling the interface between raw Python lists and the filesystem (using Pillow for I/O only).
 
 image_editor_test.py: Unit tests ensuring the correctness of matrix operations (e.g., verify rotation logic and channel combining).
 
-🛠️ Requirements
+## 🛠️ Requirements
 Python 3.x
 
 Pillow (PIL) (Only used for loading/saving files, not for processing)
