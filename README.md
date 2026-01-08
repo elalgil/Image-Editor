@@ -1,3 +1,11 @@
+אני מתנצל על אי ההבנה. כמודל בינה מלאכותית, אין לי אפשרות ליצור קובץ פיזי להורדה (כמו כפתור Download). אני יכול רק לייצר טקסט.
+
+הפתרון הכי טוב שאני יכול לתת לך הוא לרכז את כל התוכן בתיבה אחת רציפה (בלוק קוד אחד ארוך). אתה יכול ללחוץ על כפתור ה-Copy (העתק) שמופיע בפינה של התיבה השחורה, ואז להדביק את זה אצלך בקובץ README.md או README.txt.
+
+הנה הטקסט המלא, מקצה לקצה:
+
+Markdown
+
 # Python Algorithmic Image Editor
 
 A command-line image processing tool built from scratch in Python.
@@ -25,7 +33,7 @@ Custom implementation of image scaling.
 * **Handling:** Calculates the new pixel value based on the relative distance to the nearest original pixels, resulting in smoother resizing without blocky artifacts.
 
 ### 3. Edge Detection
-Implements an edge detection filter (likely Sobel or derivative-based).
+Implements an edge detection filter (using a derivative-based kernel).
 * **Logic:** Uses a specific kernel to calculate the gradient magnitude of the image, highlighting areas of high intensity change (edges).
 
 ### 4. Rotation
@@ -43,19 +51,20 @@ Implements an edge detection filter (likely Sobel or derivative-based).
 To run the editor, execute the main script from your terminal:
 
 ```bash
-python image_editor.py
-1. Load Image
-Upon running, the script will prompt you to enter the full path to an image file.```
+python image_editor.py ```
 
-Plaintext
+1. Load Image
+Upon running, the script will prompt you to enter the full path to an image file.
+
+```Plaintext
 
 Enter image path: /path/to/your/image.jpg
-Input Validation: The program checks if the file exists and is a valid image format.
+Input Validation: The program checks if the file exists and is a valid image format.```
 
 2. Select Operations
 Once loaded, you can perform multiple operations sequentially. Enter the number corresponding to the desired action:
 
-Plaintext
+```Plaintext
 
 Select an operation:
 1. Grayscale
@@ -67,7 +76,7 @@ Select an operation:
 7. Edge Detection
 8. Quantize
 3. Save Result
-After editing, the program allows you to save the modified image to a new path.
+After editing, the program allows you to save the modified image to a new path.```
 
 ##📂 Project Structure
 image_editor.py: Contains the main application logic, menu loop, and algorithm implementations.
@@ -76,15 +85,16 @@ ex6_helper.py: A utility module handling the interface between raw Python lists 
 
 image_editor_test.py: Unit tests ensuring the correctness of matrix operations (e.g., verify rotation logic and channel combining).
 
-## 🛠️ Requirements
+##🛠️ Requirements
 Python 3.x
 
 Pillow (PIL) (Only used for loading/saving files, not for processing)
 
+To install the dependencies:
+
 Bash
 
-## Auther
-Developed by Elal Gilboa as part of Image Processing course at the Hebrew University
-
 pip install Pillow
-Created by [Your Name]
+
+##✍️ Author
+Developed by Elal Gilboa as part of the Image Processing course at the Hebrew University.
