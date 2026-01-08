@@ -42,8 +42,7 @@ Implements an edge detection filter (using a derivative-based kernel).
 
 To run the editor, execute the main script from your terminal:
 
-```bash
-python image_editor.py ```
+python image_editor.py
 
 ### 1. Load Image
 Upon running, the script will prompt you to enter the full path to an image file.
